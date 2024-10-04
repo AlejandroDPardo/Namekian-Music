@@ -1,27 +1,27 @@
 body {
-    background-image: url('planets.png'); /* Set the background image */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-image: url('planets.png'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif; 
     margin: 0;
-    height: 100vh; /* Ensure the body takes up the full viewport height */
-    display: flex; /* Use flexbox to center content */
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    flex-direction: column; /* Stack elements vertically */
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
     text-align: center;
 }
 
 h1 {
     color: #ffffff; 
-    margin-bottom: 20px; /* Adds space below the heading */
+    margin-bottom: 20px; 
 }
 
 .button-container {
-    display: flex; /* Use flexbox for buttons */
-    justify-content: center; /* Center buttons horizontally */
-    gap: 10px; /* Space between buttons */
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
 }
 
 .button {
@@ -44,50 +44,50 @@ h1 {
     top: 100px;
     left: 100px;
     width: 200px;
-    transition: left 0.5s ease, top 0.5s ease; /* Add transition for smooth movement */
+    transition: left 0.5s ease, top 0.5s ease; 
 }
 
-/* Container for community and updates */
+
 #communityContainer {
-    position: fixed; /* Keeps it at the top of the screen */
-    top: 20px; /* Position at the top */
-    left: 50%; /* Centers it horizontally */
-    transform: translateX(-50%); /* Centers it perfectly */
+    position: fixed; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
     padding: 20px;
-    background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent dark background for contrast */
-    color: #ffffff; /* White text for readability */
-    border-radius: 10px; /* Rounded corners */
-    width: 90%; /* Responsive width */
-    max-width: 600px; /* Maximum width to keep it manageable */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+    background-color: rgba(30, 30, 30, 0.8); 
+    color: #ffffff; 
+    border-radius: 10px; 
+    width: 90%; 
+    max-width: 600px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
 }
 
 #gameContainer {
-    position: fixed; /* Keeps it at the bottom of the screen */
-    bottom: 20px; /* Aligns it at the bottom */
-    left: 50%; /* Centers it horizontally */
-    transform: translateX(-50%); /* Centers it perfectly */
+    position: fixed; 
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
     padding: 20px;
-    background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent dark background for contrast */
-    color: #ffffff; /* White text for readability */
-    border-radius: 10px; /* Rounded corners */
-    width: 90%; /* Responsive width */
-    max-width: 600px; /* Maximum width to keep it manageable */
-    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
+    background-color: rgba(30, 30, 30, 0.8); 
+    color: #ffffff; 
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
 }
 
 #gameContainer h2 {
     margin-bottom: 10px;
-    color: #0011ff; /* Heading color */
+    color: #0011ff; 
 }
 
 .gameLink {
-    color: #0011ff; /* Link color */
+    color: #0011ff;
     text-decoration: none;
-    font-weight: bold; /* Bold text for emphasis */
+    font-weight: bold;
 }
 
 .gameLink:hover {
-    color: #ffffff; /* Change color on hover */
-    text-decoration: underline; /* Underline on hover */
+    color: #ffffff; 
+    text-decoration: underline; 
 }
