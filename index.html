@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Games To Know About</title>
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- Container for community and updates -->
+    <div id="communityContainer" class="container">
+        <p>
+            Join a vibrant community of creators and enthusiasts! Share your simulations, discover new ideas, and get inspired by what others have built.
+            Frequent updates: The developers are committed to enhancing your experience with regular updates that introduce new features, tools, and content.
+        </p>
+    </div>
+
+    <!-- Main heading of the page -->
+    <h1>Press For Music!</h1>
+
+    <!-- New container section for the Steam game link -->
+    <div id="gameContainer" class="container">
+        <h2>Explore More in the Universe</h2>
+        <p>
+            This sandbox game lets you program a universe with unlimited stars and planets. 
+            Create, destroy, and manipulate cosmic objects as you explore the possibilities of the universe!
+        </p>
+        <p>
+            Check out <a href="https://store.steampowered.com/app/230290/Universe_Sandbox/" target="_blank" class="gameLink">Universe Sandbox</a> on Steam!
+        </p>
+    </div>
+
+    <!-- Container for the Start and Stop buttons -->
+    <div class="button-container">
+        <!-- Start Button that will trigger the meme movement and play background audio -->
+        <button id="startBtn" class="button" onclick="startMeme()">Start</button>
+
+        <!-- Stop Button that will stop the meme movement and pause background audio -->
+        <button id="stopBtn" class="button" onclick="stopMeme()" disabled>Stop</button>
+    </div>
+
+    <!-- Image of the meme that will move -->
+    <img id="meme" src="Namekian.png" alt="spacecraft">
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
